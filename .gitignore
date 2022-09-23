@@ -1,0 +1,3 @@
+targets/bootloader/iso/boot/*.bin
+dist
+build
