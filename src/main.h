@@ -5,7 +5,7 @@
 #include <kernel/ports/port.h>
 
 
-void on_start();
+void start();
 void loop();
 
 #endif
