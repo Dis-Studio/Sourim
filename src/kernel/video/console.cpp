@@ -1,4 +1,4 @@
-#include <kernel/video/console.h>
+#include <kernel/video/console.hpp>
 
 volatile char *buffer = (volatile char*) 0xb8000;
 int color = 0x0F;

@@ -1,7 +1,7 @@
 #ifndef SOURIM__VIDEO__CONSOLE__
 #define SOURIM__VIDEO__CONSOLE__
 
-#include <kernel/ports/port.h>
+#include <kernel/ports/port.hpp>
 #include <stddef.h>
 #include <stdint.h>
 

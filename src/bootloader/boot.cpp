@@ -1,6 +1,6 @@
-#include <main.h>
+#include <main.hpp>
 
-void boot(){
+extern "C" void boot(){
     start();
     while(1)
         loop();

@@ -1,8 +1,8 @@
 #ifndef SOURIM__MAIN__
 #define SOURIM__MAIN__
 
-#include <kernel/video/console.h>
-#include <kernel/ports/port.h>
+#include <kernel/video/console.hpp>
+#include <kernel/ports/port.hpp>
 
 
 void start();
