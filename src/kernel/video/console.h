@@ -1,3 +1,10 @@
+#ifndef SOURIM__VIDEO__CONSOLE__
+#define SOURIM__VIDEO__CONSOLE__
+
+#include <kernel/ports/port.h>
+#include <stddef.h>
+#include <stdint.h>
+
 enum cs_colors {
     CS_BLACK = 0,
     CS_BLUE = 1,
@@ -22,3 +29,5 @@ void cs_cur_set(const int x, const int y);
 void cs_clear();
 void cs_putchar(const char ch);
 void cs_print(const char *text);
+
+#endif

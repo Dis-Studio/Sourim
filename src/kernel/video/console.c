@@ -1,6 +1,4 @@
-#include "../ports/port.h"
-#include <stddef.h>
-#include <stdint.h>
+#include <kernel/video/console.h>
 
 #define CONSOLE_WIDTH 80
 #define CONSOLE_HEIGHT 25

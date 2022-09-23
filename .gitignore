@@ -2,3 +2,4 @@ targets/bootloader/iso/boot/*.bin
 dist
 build
 build.iso
+.vscode

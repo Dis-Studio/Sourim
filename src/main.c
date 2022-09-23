@@ -1,5 +1,4 @@
-#include "kernel/video/console.h"
-#include "kernel/ports/port.h"
+#include <main.h>
 
 void on_start(){
     cs_clear();
