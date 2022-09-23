@@ -5,6 +5,9 @@
 #include <stddef.h>
 #include <stdint.h>
 
+#define CONSOLE_WIDTH 80
+#define CONSOLE_HEIGHT 25
+
 enum cs_colors {
     CS_BLACK = 0,
     CS_BLUE = 1,
